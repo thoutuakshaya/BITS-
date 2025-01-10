@@ -163,4 +163,5 @@ class TicTacToe:
                     if score > best_score:
                         best_score = score
                         best_move = (i, j)
+                        
         self.make_move(best_move[0], best_move[1])
